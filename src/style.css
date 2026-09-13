@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+/* Class-based dark mode: toggled via `.dark` on <html> (see composables/useTheme.js) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans:
+    'Vazirmatn', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-slate-200);
+  }
+  .dark * {
+    border-color: var(--color-slate-800);
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50;
+    font-feature-settings: 'ss01' on;
+  }
+
+  /* Comfortable reading rhythm for Persian body copy */
+  body {
+    line-height: 1.85;
+  }
+
+  ::selection {
+    @apply bg-emerald-600/20 text-emerald-900 dark:text-emerald-100;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-emerald-600 ring-offset-2 ring-offset-white dark:ring-offset-slate-950;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
