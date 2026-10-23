@@ -9,7 +9,7 @@
 export const products = [
   {
     id: 1,
-    slug: 'Dimmer-220v',
+    slug: 'dimmer-220v',
     title: 'دیمر 220 ولت',
     shortDescription: 'مناسب کارهای روزمره',
 
