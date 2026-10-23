@@ -8,10 +8,10 @@ export const siteConfig = {
   shortName: 'اهورا مدار',
   tagline: 'کاتالوگ آنلاین قطعات و تجهیزات الکترونیکی',
   description:
-    'مرجع پیدا کردن قطعات الکترونیکی؛ مشخصات، قیمت و موجودی هر قطعه را ببینید و برای خرید با ما در تماس باشید.',
+    'مرجع پیدا کردن بردهای الکترونیکی؛ مشخصات، قیمت و موجودی هر قطعه را ببینید و برای خرید با ما در تماس باشید.',
   phone: '+989135181586',
-  telegram: 'ahura_madar@',
-  telegramUrl: 'https://t.me/ahura_madar',
-  instagram: 'ahura_madar@',
-  instagramUrl: 'https://instagram.com/ahura_madar'
+  telegram: 'ahura_medar@',
+  telegramUrl: 'https://t.me/ahura_medar',
+  instagram: 'ahura_medar@',
+  instagramUrl: 'https://instagram.com/ahura_medar'
 }

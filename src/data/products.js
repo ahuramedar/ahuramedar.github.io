@@ -9,33 +9,26 @@
 export const products = [
   {
     id: 1,
-    slug: 'volum-220v-general-purpose',
-    title: 'ولوم 220 ولت همه کاره',
+    slug: 'volum-220v',
+    title: 'ولوم 220 ولت',
     shortDescription: 'مناسب کارهای روزمره',
 
-    details: `خط اول توضیحات
-    
-    خط دوم توضیحات
-    خط سوم
-    خط چهارم
-    خط پنجم
-    
-    خط ششم`,
+    details: ``,
 
     price: 500000,
 
     availability: 'موجود',
 
-    categoryId: 1,
+    categoryId: 2,
 
     images: [
-      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-1.jpg',
-      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-2.jpg',
-      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-3.jpg',
-      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-4.jpg',
-      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-5.jpg',
+      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-1.png',
+      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-2.png',
+      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-3.png',
+      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-4.png',
+      '/images/products/volum-220v-general-purpose/volum-220v-general-purpose-5.png',
     ],
 
-    createdAt: '2026-08-30',
+    createdAt: '10/22/2026',
   },
 ]

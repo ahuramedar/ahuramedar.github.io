@@ -24,7 +24,6 @@ The built files land in `dist/` and can be deployed to any static host.
 | Site name, phone, Telegram | `src/config/site.js` |
 | Categories | `src/data/categories.js` |
 | Products | `src/data/products.js` |
-| Logo | `src/components/icons/LogoMark.vue` (also mirrored in `public/favicon.svg`) |
 
 ### Adding a product
 
